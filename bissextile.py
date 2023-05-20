@@ -10,7 +10,7 @@ while type(annee) is not int :
         annee = input("Veuillez saisir une année supérieure à 0 :")
         annee = int(annee)
 if (annee%4) != 0 :
-    print("Cette année n'est pas bissextile")
+    print("Cette année n'est pas une année bissextile")
 elif (annee%100) == 0 :
     if (annee%400) == 0 :
         print("Cette année est bissextile")
